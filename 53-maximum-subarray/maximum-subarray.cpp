@@ -6,8 +6,8 @@ public:
        int  ans=a[0];
        int n=a.size();
 
-        for(i=1;i<n;i++)
-{
+    for(i=1;i<n;i++)
+        {
     int v1=best_ending +a[i];
     int v2= a[i];
     best_ending = max(v1,v2);
